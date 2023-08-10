@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 0px;
+}
+
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 0px;
+}
+
+.primary{
+    padding-top: 20px;
+}
+
+.second, 
+.third {
+    display: flex;
+    justify-content: start;
+    padding-top: 20px;
+}
+
+.signo {
+    padding: 0px 5px;
+}
+
+.signo h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.third p:first-child{
+    background-color: yellow;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.third p:last-child{
+    margin-left: 10px;
+}
