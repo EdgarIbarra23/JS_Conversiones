@@ -8,39 +8,46 @@
     <link rel="stylesheet" href="./bootstrap/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
 </head>
 <body>
-    <h1>Conversiones</h1>
-    <h2>Por: Fercho CodeG</h2>
+    <div class="prueba">
+        <div class="contenido">
 
-    <div class="container primary">
-
-        <select class="form-select form-select-sm" aria-label="Small select example" id="decision">
-        </select>
-
+            <h1 class="titulo">Conversiones</h1>
+            <h2 class="subtitulo">Por: Fercho CodeG</h2>
+    
+            <div class="primary">
+        
+                <select class="form-select form-select-sm" aria-label="Small select example" id="decision">
+                </select>
+        
+            </div>
+        
+            <div class="second">
+        
+                <div class="mb-3 inputs">
+                    <input type="text" class="form-control" id="valor1" value="0">
+                    <select class="form-select form-select-sm" aria-label="Small select example" id="selector1">
+                    </select>
+                </div>
+        
+                <div class="signo">
+                    <h2>=</h2>
+                </div>
+        
+                <div class="mb-3 inputs">
+                    <input type="text" class="form-control" id="valorFinal">
+                    <select class="form-select form-select-sm" aria-label="Small select example" id="selector2">
+                    </select>
+                </div>
+            </div>
+        
+            <div class="third">
+                <p>Fórmula</p>
+                <p id="formula"></p>
+            </div>
+            
+        </div>
     </div>
 
-    <div class="container second">
-
-        <div class="mb-3 inputs">
-            <input type="text" class="form-control" id="valor1" value="0">
-            <select class="form-select form-select-sm" aria-label="Small select example" id="selector1">
-            </select>
-        </div>
-
-        <div class="signo">
-            <h2>=</h2>
-        </div>
-
-        <div class="mb-3 inputs">
-            <input type="text" class="form-control" id="valorFinal">
-            <select class="form-select form-select-sm" aria-label="Small select example" id="selector2">
-            </select>
-        </div>
-    </div>
-
-    <div class="container third">
-        <p>Fórmula</p>
-        <p id="formula"></p>
-    </div>
 
 </body>
     <script src="./js/index.js"></script>
